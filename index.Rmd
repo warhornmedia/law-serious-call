@@ -1,13 +1,13 @@
 --- 
-title: "Empty Book"
-author: "Warhorn Classics"
-date: "2020"
-description: "This empty book is a template for starting new Warhorn Classics book projects."
+title: "A Serious Call to a Devout and Holy Life"
+author: "William Law, A.M."
+date: "1821"
+description: "THIS NEED TO BE UPDATED WITH MY OWN DESCRIPTION."
 params:
-  scans: ""
+  scans: "https://archive.org/details/aseriouscalltoa00unkngoog"
   build: "1"
 cover-image: "cover.jpg"
-url: "https://warhornmedia.github.io/classics-empty-book/"
+url: "https://warhornmedia.github.io/law-serious-call/"
 output: 
   bookdown::gitbook:
     config:
@@ -15,10 +15,10 @@ output:
         scroll_highlight: yes
         before: |
           <li><a href="https://www.warhornmedia.com/"><img src="classics-template-files/images/warhornlogo.png" width="260"></a></li>
-          <li><a href="./">Empty Book — Warhorn Classics</a></li>
+          <li><a href="./">A Serious Call to a Devout and Holy Life</a></li>
         after: |
           <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-      edit: https://github.com/warhornmedia/classics-empty-book/edit/master/%s
+      edit: https://github.com/warhornmedia/law-serious-call/edit/master/%s
 documentclass: book
 always_allow_html: yes
 site: bookdown::bookdown_site
